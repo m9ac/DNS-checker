@@ -49,7 +49,7 @@ def main():
 
     print("Results:")
     for server, response_time in results.items():
-        print(f"Server: {server} | Avg. Response Time: {response_time:.2f} ms")
+        print(f"Server: {server:<15} | Avg. Response Time: {response_time:.2f} ms")
 
 if __name__ == "__main__":
     main()
