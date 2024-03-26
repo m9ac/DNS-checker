@@ -16,6 +16,7 @@ It is advised to run these scripts in a virtual environment. You will need to in
 
         python3 -m venv my_dns_test_env
 
-        source my_dns_test_env/bin/activate (or on Windows: dns_test_env\Scripts\activate )
+        source my_dns_test_env/bin/activate
+        (or on Windows: dns_test_env\Scripts\activate)
 
         pip3 install dnspython
