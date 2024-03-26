@@ -32,15 +32,22 @@ def main():
         "9.9.9.9",  # Quad9 DNS
         "64.6.64.6"  # Verisign DNS
     ]
-    print("""Would you like to test these DNS servers (1):
+    print("""
+    
+Would you like to:
+
+Test these DNS servers (1)
+
     8.8.8.8          Google
     1.1.1.1          Cloudflare
     208.67.222.222   OpenDNS
     9.9.9.9          Quad9
     64.6.64.6        Verisign DNS
-or
-enter a list of your own DNS servers to test (2)?
-Enter 'q' to quit.""")
+
+Test a list of your own DNS servers to test (2)?
+
+Quit (q)
+""")
     choice = input("Enter your choice: ")
 
     if choice == "1":
