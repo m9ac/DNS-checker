@@ -8,7 +8,7 @@ def test_dns_servers(servers, num_requests=10):
         response_times = []
         for _ in range(num_requests):
             try:
-                query = resolver.query("example.com")
+                query = resolver.resolve("example.com")
                 response_times.append(query.response.time)
             except dns.resolver.NoNameservers:
                 print(f"Error: No nameservers found for {server}")
