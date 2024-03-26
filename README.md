@@ -13,8 +13,9 @@ I welcome anyone to help out with that issue, but becasue everything still just 
 Enjoy, and if you are so inclined, buy me a coffee for the effort. <https://mtnsolutions.pro/coffee/>
 
 It is advised to run these scripts in a virtual environment. You will need to install dnspython in the virtual environtnet. To do that, enter the following:
+
         python3 -m venv my_dns_test_env
 
         source my_dns_test_env/bin/activate (or on Windows: dns_test_env\Scripts\activate )
-        
+
         pip3 install dnspython
