@@ -16,8 +16,11 @@ It is advised to run these scripts in a virtual environment. You will need to in
 
         pip3 install dnspython
 
-For dns_test.py, you can pass an argument to use a list of pre-defined DNS server by running this script like this
+For dns_test.py, you can pass an argument to use a list of pre-defined DNS servers by passing the argument "--use-predefined" like this:
 
         python3 dns_test.py --use-predefined
+
+or you can enter a specific DNS server or a list of DNS servers by passing the arguement "--servers" like this:
+        python3 dns_test.py --servers 1.1.1.1 9.9.9.9 8.8.8.8 
 
 Edit the files to change the DNS servers to your liking
